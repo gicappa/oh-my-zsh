@@ -47,9 +47,9 @@ local exit_code="%(?,,C:%{$fg[red]%}%?%{$reset_color%})"
 # % ys @ ys-mbp in ~/.oh-my-zsh on git:master x [21:47:42] C:0
 # $
 PROMPT="
-%(#,%{$bg[black]%}%{$fg[red]%}%n%{$reset_color%},%{$fg[green]%}%n) \
+%(#,%{$bg[black]%}%{$fg_bold[red]%}%n%{$reset_color%},%{$fg[green]%}%n) \
 %{$fg[white]%}@ \
-%{$fg[magenta]%}%m \
+%{$fg_bold[magenta]%}%m \
 %{$fg[white]%}in \
 %{$fg_bold[yellow]%}%~%{$reset_color%}\
 ${hg_info}\
